@@ -1,10 +1,9 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1>NEXT APP</h1>
-      <Link href="/about">know more about us</Link>
-    </div>
+    <main>
+      <h1 style={{ color: "white", textAlign: "center" }}>
+        Time to get started!
+      </h1>
+    </main>
   );
 }
